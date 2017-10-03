@@ -65,17 +65,18 @@ h2 {
 
 /*Bunn*/
 footer {
-
   background: #e5ea8a;
   width: 100%;
   box-shadow: 0 0 5px 5px #3c36e2;
   text-align: center;
 }
 
+/*Farger YouTube-ikonet i footer*/
 .youtube {
   color: red;
 }
 
+/*Farger hjem-ikonet i mathML, svg og about filene*/
 .hjem {
   color: black;
 }
