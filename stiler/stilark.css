@@ -1,0 +1,84 @@
+@import url(normalize.css);
+@import url(font-awesome.css);
+
+#toppBilde {
+    position: relative;
+    width: 1200px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+h1 {
+  position: absolute;
+  top: 50 %;
+  left: 60 %;
+  width: 100%;
+  z-index: 1;
+  font-size: 600%;
+  color: yellow;
+  font-family: fantasy;
+  letter-spacing: 10px;
+  text-align: center;
+}
+
+h2 {
+  color: #3c36e2;
+  text-align: center;
+}
+
+.flexBox{
+    width: 100%;
+    max-width: 1200px;
+    margin: 19% auto 30px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.articles {
+  flex 1;
+  margin: 20px 0 30px 0;
+  padding: 5 %;
+  background-color: #e5ea8a;
+  box-shadow: 0 0 8px 8px #3c36e2;
+}
+
+.lead {
+  float: left;
+  width: 23%;
+  height: 65%;
+  margin: 1% 0 1% 4%;
+  padding: 0 2% 0 2%;
+  background: grey;
+  border: black solid;
+}
+
+
+/*Pakker nettsiden*/
+#wrapper {
+    background: #ad8282;
+    height: 100%;
+}
+
+/*Linker i bunnen*/
+.link{
+  text-decoration: none;
+  background-color: #ccc;
+  border: 3px solid;
+}
+
+/*Bunn*/
+footer {
+  width: 100%;
+  padding-top: 1px;
+  height: 1%;
+  background: grey;
+  text-align: center;
+}
+
+.youtube {
+  color: red;
+}
+
+.hjem {
+  color: black;
+}

@@ -1,0 +1,24 @@
+/*Tabell oppgave 3 (mer om denne siden)*/
+table {
+  width: 30%;
+  border: solid;
+  color: #3c36e2;
+  background-color: #e5ea8a;
+}
+
+/*Første link*/
+tr:nth-child(even) a {
+  color: blue;
+}
+/*Første beskrivelse*/
+tr:nth-child(even) {
+  color: blue;
+}
+/*Andre link*/
+tr:nth-child(odd) a {
+  color: red;
+}
+/*Rest*/
+tr:nth-child(odd) {
+  color: red;
+}
