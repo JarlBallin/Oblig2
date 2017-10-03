@@ -1,0 +1,82 @@
+@import url(normalize.css);
+@import url(font-awesome.css);
+
+/*Bilde på toppen*/
+#toppBilde {
+    margin: 0 auto;
+    height: 500px;
+    width: 1200px;
+    position: relative;
+}
+
+/*Tittel/overskrift*/
+h1 {
+  font-family: fantasy;
+  width: 100%;
+  font-size: 800%;
+  letter-spacing: 25px;
+  color: yellow;
+  position: absolute;
+  text-align: center;
+}
+
+/*Artikkel-tittel*/
+h2 {
+  text-align: center;
+  color: #3c36e2;
+}
+
+/*Fleks*/
+.flexBox{
+    display: flex;
+    max-width: 1200px;
+    width: 100%;
+    margin: 20% auto auto;
+}
+
+.articles {
+  background-color: #e5ea8a;
+  box-shadow: 0 0 5px 5px #3c36e2;
+}
+
+.lead {
+  padding: 1% 2% 0 2.5%;
+  margin: auto auto 2% 4%;
+  background: grey;
+  border: black solid;
+  float: left;
+  width: 23%;
+  height: 75%;
+}
+
+
+/*Pakker nettsiden*/
+#wrapper {
+    background: #ad8282;
+    height: 100%;
+}
+
+/*Knapp/linker i bunnen*/
+.link{
+  text-decoration: none;
+  background-color: grey;
+  border: 4px solid;
+}
+
+/*Bunn*/
+footer {
+  background: #e5ea8a;
+  width: 100%;
+  box-shadow: 0 0 5px 5px #3c36e2;
+  text-align: center;
+}
+
+/*Farger YouTube-ikonet i footer*/
+.youtube {
+  color: red;
+}
+
+/*Farger hjem-ikonet i mathML, svg og about filene*/
+.hjem {
+  color: black;
+}
