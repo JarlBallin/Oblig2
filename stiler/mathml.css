@@ -1,55 +1,52 @@
 @import url(normalize.css);
 @import url(font-awesome.css);
 
+/*Bilde på toppen*/
 #toppBilde {
-    position: relative;
-    width: 1200px;
-    height: 500px;
     margin: 0 auto;
+    height: 500px;
+    width: 1200px;
+    position: relative;
 }
 
+/*Tittel/overskrift*/
 h1 {
-  position: absolute;
-  top: 50 %;
-  left: 60 %;
-  width: 100%;
-  z-index: 1;
-  font-size: 600%;
-  color: yellow;
   font-family: fantasy;
-  letter-spacing: 10px;
+  width: 100%;
+  font-size: 800%;
+  letter-spacing: 25px;
+  color: yellow;
+  position: absolute;
   text-align: center;
 }
 
+/*Artikkel-tittel*/
 h2 {
-  color: #3c36e2;
   text-align: center;
+  color: #3c36e2;
 }
 
+/*Fleks*/
 .flexBox{
-    width: 100%;
-    max-width: 1200px;
-    margin: 19% auto 30px auto;
     display: flex;
-    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 20% auto auto;
 }
 
 .articles {
-  flex 1;
-  margin: 20px 0 30px 0;
-  padding: 5 %;
   background-color: #e5ea8a;
-  box-shadow: 0 0 8px 8px #3c36e2;
+  box-shadow: 0 0 5px 5px #3c36e2;
 }
 
 .lead {
-  float: left;
-  width: 23%;
-  height: 75%;
-  margin: 1% 0 1% 4%;
-  padding: 0 2% 0 2%;
+  padding: 1% 2% 0 2.5%;
+  margin: auto auto 2% 4%;
   background: grey;
   border: black solid;
+  float: left;
+  width: 23%;
+  height: 70%;
 }
 
 
@@ -59,19 +56,19 @@ h2 {
     height: 100%;
 }
 
-/*Linker i bunnen*/
+/*Knapp/linker i bunnen*/
 .link{
   text-decoration: none;
-  background-color: #ccc;
-  border: 3px solid;
+  background-color: grey;
+  border: 4px solid;
 }
 
 /*Bunn*/
 footer {
+
+  background: #e5ea8a;
   width: 100%;
-  padding-top: 1px;
-  height: 1%;
-  background: grey;
+  box-shadow: 0 0 5px 5px #3c36e2;
   text-align: center;
 }
 
