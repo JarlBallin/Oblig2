@@ -1,37 +1,37 @@
 @import url(normalize.css);
 @import url(font-awesome.css);
 
+/*Bilde på toppen*/
 #toppBilde {
-    position: relative;
-    width: 1200px;
-    height: 500px;
     margin: 0 auto;
+    height: 500px;
+    width: 1200px;
+    position: relative;
 }
 
+/*Tittel/overskrift*/
 h1 {
-  position: absolute;
-  top: 50 %;
-  left: 60 %;
-  width: 100%;
-  z-index: 1;
-  font-size: 600%;
-  color: yellow;
   font-family: fantasy;
-  letter-spacing: 10px;
+  width: 100%;
+  font-size: 800%;
+  letter-spacing: 25px;
+  color: yellow;
+  position: absolute;
   text-align: center;
 }
 
+/*Artikkel-tittel*/
 h2 {
-  color: #3c36e2;
   text-align: center;
+  color: #3c36e2;
 }
 
+/*Fleks*/
 .flexBox{
-    width: 100%;
-    max-width: 1200px;
-    margin: 19% auto 30px auto;
     display: flex;
-    justify-content: space-between;
+    max-width: 1200px;
+    width: 100%;
+    margin: 20% auto auto;
 }
 
 .articles {
